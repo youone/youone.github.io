@@ -16,10 +16,11 @@
 title: Glaenta
 email: jolundq@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Swedish word "glänta" is used for a small opening in a forest ("glade" in English), but it can also be used as a verb that means to slightly move an object - usually a door, curtain, or something of the like - in order to get a peek of what is on the other side of it.
+
+  The word is often used in metaphors for the act of entering and getting a glimpse of new and previously unknown territory of knowlege.
 baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://you1.se" # the base hostname & protocol for your site
 url: "http://you1.se" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  youone

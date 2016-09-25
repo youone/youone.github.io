@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 
 <div id='postcontent'></div>
-<script src='/javascript/test.js' type="text/javascript"></script>
+<script src='/javascript/test2.js' type="text/javascript"></script>
