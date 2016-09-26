@@ -23,15 +23,21 @@ define(['jquery', 'velocity'], function ($, velocity) {
 
 
     // console.log(initialWindowWidth);
-    // $('.site-header').css('opacity', '0');
+    $('.site-header').css('opacity', '0');
     $('#header_image').css('display', 'block');
 
-    $('#header_opaque').velocity({
-        opacity: "0.5"
-    }, 3000);
-    // $('.site-header').velocity({
-    //     opacity: "1"
-    // }, 3000);
+    $('.site-header').velocity({
+        opacity: "1"
+    }, {
+            duration:2000,
+            complete:function(){
+                $('#header_opaque').velocity({
+                    opacity: "0.5"
+                }, 2000);
+            }
+        }
+        );
+
 
 
     $(window).resize(function () {
