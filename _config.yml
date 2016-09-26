@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The word is often used in metaphors for the act of entering and getting a glimpse of new and previously unknown territory of knowlege.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://you1.se" # the base hostname & protocol for your site
-url: "http://you1.se" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  youone
 

@@ -23,14 +23,14 @@ define(['jquery', 'velocity'], function ($, velocity) {
 
 
     // console.log(initialWindowWidth);
-    // $('.site-header').css('opacity', '1');
+    // $('.site-header').css('opacity', '0');
     $('#header_image').css('display', 'block');
 
     $('#header_opaque').velocity({
         opacity: "0.5"
     }, 3000);
-    // $('#header_image').velocity({
-    //     opacity: "0.5"
+    // $('.site-header').velocity({
+    //     opacity: "1"
     // }, 3000);
 
 
