@@ -17,6 +17,8 @@ define(['jquery', 'velocity'], function ($, velocity) {
     var initialWindowWidth = $(window).width();
     $('#header_svg').attr('viewBox', '0 0 ' + initialWindowWidth + ' 250');
     $('#header_image').attr('width', initialWindowWidth);
+    $('#header_image').attr('height', initialWindowWidth*1200/1920);
+    $('#header_image').attr('y', -(initialWindowWidth*1200/1920-350));
     $('#header_svg').attr('width', initialWindowWidth);
     $('#header_opaque').attr('d', "M 0,0 0,250 " + initialWindowWidth + ",250 " + initialWindowWidth + ",0 0,0 Z m 185.28711,45.685547 a 75,75 0 0 1 77.18945,74.968753 75,75 0 0 1 -150,0 75,75 0 0 1 72.81055,-74.968753 z");
     $('#header_clippath_retangle').attr('width', initialWindowWidth);
@@ -45,7 +47,10 @@ define(['jquery', 'velocity'], function ($, velocity) {
         $('#header_svg').attr('width', $(window).width());
         $('#header_clippath_retangle').attr('width', $(window).width());
         $('#header_image').attr('width', $(window).width());
-        $('#header_image').attr('y', -400 - ($(window).width() - initialWindowWidth));
+        $('#header_image').attr('height', $(window).width()*1200/1920);
+        $('#header_image').attr('y', -($(window).width()*1200/1920-350));
+        // $('#header_image').attr('y', -450 - ($(window).width() - initialWindowWidth));
+        $('#header_opaque').attr('d', "M 0,0 0,250 " + $(window).width() + ",250 " + $(window).width() + ",0 0,0 Z m 185.28711,45.685547 a 75,75 0 0 1 77.18945,74.968753 75,75 0 0 1 -150,0 75,75 0 0 1 72.81055,-74.968753 z");
         console.log($('#header_image').attr('y'));
     });
 
