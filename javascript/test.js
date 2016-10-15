@@ -34,7 +34,7 @@ define(['jquery', 'velocity'], function ($, velocity) {
             duration:2000,
             complete:function(){
                 $('#header_opaque').velocity({
-                    opacity: "0.5"
+                    opacity: "0.3"
                 }, 2000);
             }
         }

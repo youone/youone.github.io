@@ -30,7 +30,7 @@
      id="namedview11"
      showgrid="false"
      inkscape:zoom="0.82307229"
-     inkscape:cx="402.17493"
+     inkscape:cx="385.86993"
      inkscape:cy="34.472843"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -83,15 +83,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      id="layer1" />
   <image
-     sodipodi:absref="C:\Users\johan\IdeaProjects\youone.github.io\assets\6925296-forest-glade.jpg"
-     xlink:href="6925296-forest-glade.jpg"
+     sodipodi:absref="C:\Users\johan\IdeaProjects\youone.github.io\assets\6925296-forest-glade_flipped.jpg"
+     xlink:href="6925296-forest-glade_flipped.jpg"
      y="-450"
      x="0"
      id="header_image"
@@ -103,19 +103,19 @@
   <path
      style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.2238806"
      mask="none"
-     d="M 0,0 0,250 1000,250 1000,0 0,0 Z m 185.28711,45.685547 a 75,75 0 0 1 77.18945,74.968753 75,75 0 0 1 -150,0 75,75 0 0 1 72.81055,-74.968753 z"
+     d="M 0,0 0,250 1000,250 1000,0 0,0 Z m 75,125 a 75,75 0 0 1 150,0 75,75 0 0 1 -150,0 z"
      id="header_opaque"
      inkscape:connector-curvature="0" />
   <text
-     id="text4137"
-     y="127.6875"
-     x="667.9884"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="title"
+     y="0"
+     x="0"
      xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      sodipodi:linespacing="125%"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;stroke:none"
-       y="127.6875"
-       x="498.87695"
+       y="125"
+       x="500"
        id="tspan4139">G  L  A  E  N  T  A </tspan></text>
   <path
      inkscape:connector-curvature="0"
@@ -127,4 +127,11 @@
      d="m 308.64379,145 382.71243,0 -1.21497,0"
      id="path4181"
      inkscape:connector-curvature="0" />
+  <circle
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="holeborder"
+     cx="150"
+     cy="125"
+     r="75"
+     75="" />
 </svg>
