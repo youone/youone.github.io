@@ -1,9 +1,0 @@
----
-layout: post
-title:  "The first Post"
-date:   2016-09-24 15:23:14 +0200
-categories: jekyll update
----
-
-<div id='postcontent'></div>
-<script src='/javascript/test2.js' type="text/javascript"></script>

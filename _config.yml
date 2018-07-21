@@ -1,30 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Glaenta
-email: jolundq@gmail.com
+title: Johan Lundquist
 description: > # this means to ignore newlines until "baseurl:"
-  The Swedish word "glänta" is used for a small opening in a forest ("glade" in English), but it can also be used as a verb that means to slightly move an object - usually a door, curtain, or something of the like - in order to get a peek of what is on the other side of it.
-
-  The word is often used in metaphors for the act of entering and getting a glimpse of new and previously unknown territory of knowlege.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://you1.se" # the base hostname & protocol for your site
-url: "" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  youone
+url: "http://you1.se" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Build settings
+# Author Settings
+author: Johan Lundquist # add your name
+author-img: johan_color_mini.jpg # add your photo
+about-author: I am a former particle physicist, current systems engineer and web developer with a keen interest in social and political questions. Always hungry for new knowledge and perspectives. # add description
+#social-twitter: # add your Twitter handle
+social-facebook: johan.lundquist.75
+social-github: youone # add your Github handle
+#social-linkedin: youone
+social-email: jolundq@gmail.com
+
+# Disqus
+discus-identifier: you1 # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
 markdown: kramdown
-theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 4
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+# Sharing debugger
+# https://developers.facebook.com/tools/debug/sharing/
