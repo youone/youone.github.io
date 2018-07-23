@@ -6,6 +6,7 @@ description: Some thoughts on exponential decay and life span of everyday object
 img: As-Quiet-As-The-Grave.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Exponential Lifetime, Particle Physics]
+show: true
 ---
 Elementary particles, atoms and even molecules do not age like the big macroscopic objects that they are the constituents of, such as biological cells, cars, humans and stars. The physical matter we see around us consists mainly of stable particles, which means that they don't cease to exist for very long times. They have nevertheless been created and started their existence at some point in the past. Some sooner than others. Interestingly enough there is however no way to even in principle tell for how long an individual atom or elementary particle have existed by just inspecting it. The only way to know is if you actually witnessed when it was created. This in turn is connected to the fact that the particles that do cease to exist by decaying into other particles, have a very characteristic life time expectancy that is a falling ***exponential*** to its statistical nature.
 

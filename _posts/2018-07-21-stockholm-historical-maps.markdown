@@ -6,4 +6,5 @@ description: A web app showing historical maps of Stockholm layered on top of a 
 img: stockholm_historical_maps/1642.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Stockholm, Maps]
+show: true
 ---

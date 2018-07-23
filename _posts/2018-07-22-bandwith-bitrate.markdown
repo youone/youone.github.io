@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Bandwith and Bitrate
-date: 3018-07-22 10:30:00 +0100
+date: 2018-07-22 10:30:00 +0100
 description: How do you convert Bandwidth to Bitrate? How are the two connected? 
 img: bandwidth_bitrate/claude_shannon.jpg # Add image post (optional)
 fig-caption: Claude Shannon, The founder information theory
 tags: [Signals, Information Theory, Claude Shannon]
+show: false
 ---
 **Bandwidth**\\
 Why does the sound in a normal old fashioned telephone conversation appear different compared to when you speak to a person face to face? This is simply because some of the frequencies contained in the sound that leaves the mouth of the speaker in one end of the line are lost when transported through the communication system that consists of the microphone, the loudspeaker, the electrical components in the telephones and the cables connecting them. The span of frequencies that a system can support is called its _bandwidth_. The human ear can detect frequencies between about 20-20000Hz. The air that lies between a sound source and a persons ear can also support the propagation of sound waves for all of these frequencies. This gives a bandwidth of of 19980Hz for the human hearing system in air (we can roughly say 20000Hz or 20kHz). A telephone system is however constructed so that only frequencies in a span corresponding to the ones contained in the human voice are transferred. These roughly lies between 80-250Hz. But the human voice also contains frequencies above and below this span and if you remove them the voice will sound different, but it will still be good enough for people to understand what is being said.
