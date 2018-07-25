@@ -5,20 +5,24 @@
 
 $('document').ready(function(){
 
-    var overlayLayer = new ol.layer.Tile({
-        source: new ol.source.XYZ({
-            // url: 'http://mapwarper.net/maps/tile/21286/{z}/{x}/{y}.png'
-            // url: 'https://mapwarper.net/maps/tile/22727/{z}/{x}/{y}.png'
+    let m1642Source = new ol.source.XYZ({
             url: 'https://mapwarper.net/maps/tile/27742/{z}/{x}/{y}.png'
-        }),
+        });
+    let m1733Source= new ol.source.XYZ({
+            url: 'https://mapwarper.net/maps/tile/22727/{z}/{x}/{y}.png'
+        });
+
+    let overlayLayer = new ol.layer.Tile({
+        source: m1733Source,
         opacity: 0.5
     });
+    overlayLayer.set("id", "overlay");
 
     $('.map').css({
         height: $(window).height() + 'px'
     });
 
-    var map = new ol.Map({
+    let map = new ol.Map({
         controls: [
             // new OpenLayers.Control.Navigation(),
             // new OpenLayers.Control.ArgParser(),
@@ -82,6 +86,24 @@ $('document').ready(function(){
         overlayLayer.setOpacity($(this).val()/100);
 
     });
+
+    $("#select-custom-6").on("change", function(event) {
+        console.log(event, $(this).find(":selected").text());
+
+        if($(this).find(":selected").text() === "1642") {
+            console.log(map.getLayers().forEach(layer => {
+                console.log(layer.get("id"));
+                if(layer.get("id") === "overlay") layer.setSource(m1642Source);
+            }));
+        }
+        if($(this).find(":selected").text() === "1733") {
+            console.log(map.getLayers().forEach(layer => {
+                console.log(layer.get("id"));
+                if(layer.get("id") === "overlay") layer.setSource(m1733Source);
+            }));
+        }
+
+    })
 
 
 });
