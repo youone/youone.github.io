@@ -8,7 +8,7 @@ fig-caption: Stockholm map from 1642
 tags: [Stockholm, Maps]
 show: true
 ---
-Made a little [**web-app**](/layers/index.html) where you can see two famous historical maps of Stockholm as transparent layers on top of a modern satellite map (the app is embedded below, but use the link if the screen is too narrow). Select which overlay to show in the top right menu and change the transparency with the slider. 
+Made a little [**web-app**](/layers/index.html) where you can see two famous historical maps of Stockholm as transparent layers on top of a modern satellite map (the app is embedded below, but use the link if the screen is too narrow). Select which overlay to show in the top right menu and change the transparency with the slider. Zoom and pan with the familiar gestures.
 
 The most remarkable map is probably the one from 1642. It is absolutely beautifully painted with an almost modern feel to it. It does not actually show what Stockholm looked like at this point, but rather is a plan for the future city. Before the 1640s the street grid in Stockholm was of mid-eval type with a total lack of urban planning (hence not a "grid" at all). The grid that was laid out at this point is however almost the same as the one is still present as can easily be seen in the app.
 
