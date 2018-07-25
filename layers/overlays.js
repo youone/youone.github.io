@@ -7,7 +7,9 @@ $('document').ready(function(){
 
     var overlayLayer = new ol.layer.Tile({
         source: new ol.source.XYZ({
-            url: 'http://mapwarper.net/maps/tile/21286/{z}/{x}/{y}.png'
+            // url: 'http://mapwarper.net/maps/tile/21286/{z}/{x}/{y}.png'
+            // url: 'https://mapwarper.net/maps/tile/22727/{z}/{x}/{y}.png'
+            url: 'https://mapwarper.net/maps/tile/27742/{z}/{x}/{y}.png'
         }),
         opacity: 0.5
     });
@@ -57,7 +59,8 @@ $('document').ready(function(){
             // })
         ],
         view: new ol.View({
-            center: ol.proj.fromLonLat([17.858546, 59.363938]),
+            // center: ol.proj.fromLonLat([17.858546, 59.363938]),
+            center: ol.proj.fromLonLat([18.070833, 59.325]),
             zoom: 13
         })
     });
