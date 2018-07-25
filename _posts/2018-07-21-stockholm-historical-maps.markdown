@@ -8,10 +8,10 @@ fig-caption: Stockholm map from 1642
 tags: [Stockholm, Maps]
 show: true
 ---
-I have made a little [**web-app**](/layers/index.html) where you can see some famous historical maps of stockholm as transparent layers on top of a modern satellite map. It is a result of my slight obsession with maps and fascination with the the gradual changes that cities undertake with time. 
+I have made a little [**web-app**](/layers/index.html) where you can see some famous historical maps of stockholm as transparent layers on top of a modern satellite map. Select which overlay map to show in the top right menu.  
 
 The most remarkable map is probably the one from 1642. It is beautifully painted with almost a modern feel to it. It does not actually show what Stockholm looked like at this point, but rather is a plan of the future city. Before the 1640s the street grid in Stockholm was of mid-eval type with a total lack of urban planning (hence not a "grid" at all). The grid that was laid out at this point is however almost the same one is still present as can easily be seen in the app.
 
 As you can see the edges are not straight an the streets are a bit curved at some places in the historical overlays. This is because I use an online "warping" program ([mapwarper.net](https://mapwarper.net)) to stretch and rotate the map while constraining it to be accurate at certain known fix-points like churches, rocks or other old buildings. This needs to be done since the older maps contains lots of errors regarding distances and angles due to to the more primitive cartographic methods used in those days. A plain overlay without warping does simply not work good enough for a direct overlay to be useful. 
 
-<iframe style="width:100%; height:500px; border:0" src="https://you1.se/layers/index.html"></iframe>
+<iframe style="width:100%; height:500px; border:0" src="/layers/index.html"></iframe>

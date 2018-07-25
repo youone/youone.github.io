@@ -90,6 +90,7 @@ $('document').ready(function(){
     $("#select-custom-6").on("change", function(event) {
         console.log(event, $(this).find(":selected").text());
 
+
         if($(this).find(":selected").text() === "1642") {
             console.log(map.getLayers().forEach(layer => {
                 console.log(layer.get("id"));
@@ -102,6 +103,10 @@ $('document').ready(function(){
                 if(layer.get("id") === "overlay") layer.setSource(m1733Source);
             }));
         }
+
+        console.log('closing panel');
+        $("#mypanel").panel("close");
+
 
     })
 
