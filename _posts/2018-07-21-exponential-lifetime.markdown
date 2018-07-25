@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exponential Lifetime
-date: 2018-07-21 13:32:20 +0300
+date: 2017-01-12 13:32:20 +0300
 description: Some thoughts on exponential decay and life span of everyday objects
 img: As-Quiet-As-The-Grave.jpg # Add image post (optional)
 fig-caption:
