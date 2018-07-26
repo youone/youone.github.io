@@ -41,7 +41,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 #RSS feed
 name: Johan's Blog
 description: This and that
-url: http://you1.se
+url: https://you1.se
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
