@@ -1,3 +1,4 @@
+
 title: Johan Lundquist
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -30,11 +31,20 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+#  - jekyll-feed
 
 paginate: 4
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+#RSS feed
+name: Johan's Blog
+description: This and that
+url: http://you1.se
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
 
 # Sharing debugger
 # https://developers.facebook.com/tools/debug/sharing/
