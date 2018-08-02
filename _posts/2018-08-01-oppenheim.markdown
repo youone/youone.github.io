@@ -2,7 +2,7 @@
 layout: post
 title: What to say about a hairy cup?
 date: 2018-08-01 10:30:00 +0100
-description:  Me having a go at art criticism
+description:  Me having a go as an art critic
 img: oppenheim/cup.jpg
 fig-caption: Breakfast in Fur (Le Déjeuner en fourrure), Méret Oppenheim
 tags: [Art, Méret Oppenheim, Heinrich Wölfflin]
