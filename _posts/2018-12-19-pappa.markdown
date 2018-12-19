@@ -1,0 +1,11 @@
+---
+layout: post
+title: Han fattas mig!
+date: 2018-08-01 10:30:00 +0100
+description:  
+img: pappa/pappa.jpg
+fig-caption:
+tags: []
+show: true
+---
+Morgonen gryr den andra dagen i en verklighet där Pappa inte längre finns. Han lämnade oss hastigt och helt oväntat. Förnekelsen har lagt sig. Ilskan verkar inte infinna sig. Vi går vidare, dag för dag ...
