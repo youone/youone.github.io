@@ -1,0 +1,72 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://jqwidgets.com/public/jqwidgets/jqx-all.js"></script>
+    <script type="text/javascript" src="generatedata.js"></script>
+    <script type="module" src="jqx.js"></script>
+
+    <!-- add the jQWidgets base styles and one of the theme stylesheets -->
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.metro.css" type="text/css" />
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.metrodark.css" type="text/css" />
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.light.css" type="text/css" />
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.dark.css" type="text/css" />
+    <link rel="stylesheet" href="jqx.css" type="text/css" />
+
+
+</head>
+<body>
+
+<div id='jqxMenu'>
+    <button id="deleteFavoriteButton">remove</button>
+    <!--<ul>-->
+        <!--<li><a href="#">delete</a></li>-->
+    <!--</ul>-->
+</div>
+
+<div id="mainPage" class="main-page">
+
+<div id="mainHeader" class="main-header jqx-hideborder">
+    <div id="toolbar"></div>
+</div>
+
+
+<div id="mainContent" class="main-content jqx-hideborder">
+    <div class="main-splitter">
+
+        <div id="splitLeft">
+            <div id="sbTabs" class="jqx-hideborder jqx-hidescrollbars">
+                <ul style='margin-left: 0px;'>
+                    <li style='margin-left: 3px;'>Search</li>
+                    <li style='margin-left: 0px;'>Browse</li>
+                </ul>
+                <div>
+                    <!--<input id="mySearchInput" type="text" style="margin:3px" is="my-input">-->
+                    <input id="searchInput" type="text" style="margin:3px" is="my-input">
+                    <div id="searchToolbar" style="margin: 3px"></div>
+                </div>
+                <div id="btTab">
+                    <browse-tree></browse-tree>
+                </div>
+            </div>
+        </div>
+
+        <div id="splitRight">
+            <div id="mainTabs" class="jqx-hideborder jqx-hidescrollbars">
+                <ul style='margin-left: 0px;'>
+                    <li style="margin-left: 3px;" hasclosebutton="false">Info</li>
+                </ul>
+                <div>
+                    Info
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://jqwidgets.com/public/jqwidgets/jqx-all.js"></script>
+
+    <!-- add the jQWidgets base styles and one of the theme stylesheets -->
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.metro.css" type="text/css" />
+    <link rel="stylesheet" href="jqx.css" type="text/css" />
+</head>
+<body>
+
+<div id='jqxSplitter'>
+    <div>
+        <div id="searchOptions" style="margin:5px">
+            <div style="display:grid; grid-template-columns: auto auto">
+                <div id="leftList" style="width:250px; height: 200px; border: 1px solid lightgray; background-color: white">left</div>
+                <div id="rightList" style="width:250px; height: 200px; border: 1px solid lightgray; background-color: white">right</div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
+
+<script>
+
+    $("#jqxSplitter").jqxSplitter({
+        width: '100%',
+        height: '100%',
+        panels: [{ size: 300 }]
+    });
+
+    $("#searchOptions").jqxDropDownButton({
+        width: 'calc(100% - 10px)',
+    })
+        .on('open', event => {
+            $('.jqx-rc-t-expanded').css({
+                width: 'unset',
+            });
+        })
+        .on('close', event => {
+            $('.jqx-dropdownbutton-popup').css('overflow', 'hidden');
+        });
+
+    $("#searchOptions").jqxDropDownButton('setContent', 'open');
+
+</script>
+
+</body>
+</html>
