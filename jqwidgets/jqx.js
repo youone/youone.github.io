@@ -37,10 +37,30 @@ $(document).ready(function () {
         popupZIndex: 9999999
     });
 
-    let dfb = $("#deleteFavoriteButton").jqxButton({theme: window.jqxTheme}).on('click', event => {
+    let favoritesMenu = $("#favoritesMenu").jqxMenu({
+        theme: window.jqxTheme,
+        // width: '120px',
+        // height: '140px',
+        autoOpenPopup: false,
+        mode: 'popup',
+        popupZIndex: 999999
+    });
+
+    $("#addToFavoButton").jqxButton({theme: window.jqxTheme, width: 'calc(100%)', template: 'warning'}).on('click', event => {
+        console.log('adding favorite');
+    });
+    $("#clearRecentButton").jqxButton({theme: window.jqxTheme, width: '100%'}).on('click', event => {
+        console.log('clearing recent');
+    });
+
+    let dfb = $("#deleteFavoriteButton").jqxButton({theme: window.jqxTheme, template: 'danger'}).on('click', event => {
         console.log('deleting favorite', dfb.data());
         contextMenu.jqxMenu('close');
-    });
+    })
+        .on('mouseout', event => {
+            contextMenu.jqxMenu('close');
+        });
+
 
     $('#mainHeader').jqxPanel({theme: window.jqxTheme, height: 100, width: '100%'});
     $('#mainContent').jqxPanel({theme: window.jqxTheme, height: '100%', width: '100%'});
@@ -110,8 +130,44 @@ $(document).ready(function () {
 
     let searchInput = $('#searchInput').jqxInput({
         theme: window.jqxTheme,
-    }).width('calc(100% - 8px)')
+    })
+        .width('calc(100% - 8px)')
+
         .on('analysis', (event, data) => {
+            console.log(data);
+        })
+
+        .on('rightclick', (event, data) => {
+
+            $('#favoritesList').jqxListBox({
+                theme: window.jqxTheme,
+                width: 150,
+                source: [{label:'item1', value:'item1'}, {label:'item2', value:'item2'}],
+                renderer: (index, label, value) => {
+                    return '<favo-list-item label="' + label + '">'
+                },
+            }).on('select', event => {
+                console.log(event.args.originalEvent.buttons);
+                if (event.args.originalEvent.buttons === 1) {
+                    searchInput.jqxInput('val', event.args.item.label);
+                    favoritesMenu.jqxMenu('close');
+                }
+                if (event.args.originalEvent.buttons === 2) {
+                    console.log(event.args.item.label, event.args.originalEvent.clientX, event.args.originalEvent.clientY);
+                    contextMenu.jqxMenu('open', parseInt(event.args.originalEvent.clientX), parseInt(event.args.originalEvent.clientY));
+                    dfb.data({item: event.args.item.label});
+                }
+            });
+
+
+            $('#recentList').jqxListBox({
+                width: 150,
+                theme: window.jqxTheme,
+                source: ['item1', 'item2'],
+            });
+
+            favoritesMenu.jqxMenu('open', data.position[3] + 10, data.position[2] - 1);
+
             console.log(data);
         });
 
@@ -144,14 +200,22 @@ $(document).ready(function () {
     class MyInput extends HTMLInputElement {
         constructor() {
             super();
-            // this.setAttribute('onfocus', 'hej')
-        }
-
-        connectedCallback() {
             $(this).on('input', event => {
                 console.log(this.value);
                 $(this).trigger('analysis', {data: this.value});
             });
+
+            $(this).on('focus', event => {
+                this.select();
+            });
+
+            $(this).on('contextmenu', event => {
+                let rect = this.getBoundingClientRect();
+                $(this).trigger('rightclick', {position: [rect.top, rect.right, rect.bottom, rect.left]});
+            });
+        }
+
+        connectedCallback() {
 
         }
     }

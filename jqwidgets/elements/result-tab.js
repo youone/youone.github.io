@@ -17,45 +17,78 @@ template.innerHTML =`
 </div>
 `;
 
-class Group1ResultItem extends HTMLSpanElement {
+class Group1ResultItem extends HTMLDivElement {
 
-    constructor(data) {
+    constructor(data, width) {
         super();
+
+        this.connected = false;
 
         if (data) {
             console.log(data);
 
-            $(this).html($(`<div style="
-            width: calc(100% - 10px); 
-            height: 100px;
-            margin: 0px;
-            border: 1px solid lightgrey;
-            ">`)
-                .html(data.data1))
+            this.content = $('<div id="theContent" style="width: calc(100% - 5px); display: grid; grid-template-columns: auto auto">');
+            this.content.append($('<div style="padding-right: 10px">').html('title1:'));
+            this.content.append($('<div>').html('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'));
+            this.content.append($('<div>').html('title2:'));
+            this.content.append($('<div>').html('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'));
+            this.content.append($('<div>').html('title3:'));
+            this.content.append($('<div>').html('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'));
+
+            console.log(this.content[0].outerHTML.length);
+
+            this.panel = $(`<div id="thePanel" style="
+            /*width: calc(100% - 10px); */
+            /*height: 100px;*/
+            /*border: 1px solid lightgrey;*/
+            white-space: normal
+            ">`).html(this.content).jqxPanel({
+                theme: window.jqxTheme,
+                width: width - 30,
+                // width: 'calc(100% - 4px)',
+                // height: 100,
+                autoUpdate: true
+            });
+
+            // panel.jqxPanel({height: content.height()});
+            // panel.jqxPanel('append', content[0]);
+
+            $(this).html(this.panel);
         }
-    }
-}
-class Group2ResultItem extends HTMLSpanElement {
 
-    constructor(data) {
+    }
+
+    // connectedCallback() {
+    //     if (!this.connected) {
+    //         console.log('COOOOOOOOOOOOOOOON', $(this).find('#theContent').height());
+    //         $(this).find('#thePanel').jqxPanel({height: $(this).find('#theContent').height()});
+    //     }
+    //     this.connected = true;
+    // }
+}
+class Group2ResultItem extends HTMLDivElement {
+
+    constructor(data, width) {
         super();
 
         if (data) {
             console.log(data);
 
             $(this).html($(`<div style="
-            width: calc(100% - 10px); 
-            height: 50px;
+            width: `+ (width - 30) +`px;
+            /*width: calc(100% - 10px); */
+            /*height: 50px;*/
             margin: 0px;
             border: 1px solid lightgrey;
+            white-space: normal;
             ">`)
-                .html(data.data1))
+                .html('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'))
         }
     }
 }
 class Group3ResultItem extends HTMLSpanElement {
 
-    constructor(data) {
+    constructor(data, width) {
         super();
 
         if (data) {
@@ -71,8 +104,8 @@ class Group3ResultItem extends HTMLSpanElement {
         }
     }
 }
-window.customElements.define("group1-result-item", Group1ResultItem, {extends: 'span'});
-window.customElements.define("group2-result-item", Group2ResultItem, {extends: 'span'});
+window.customElements.define("group1-result-item", Group1ResultItem, {extends: 'div'});
+window.customElements.define("group2-result-item", Group2ResultItem, {extends: 'div'});
 window.customElements.define("group3-result-item", Group3ResultItem, {extends: 'span'});
 
 let resultItems = {
@@ -96,6 +129,8 @@ class ResultTab extends HTMLElement {
             height: 'calc(100% - 2px)',
             // height: 200
             panels: [{ size: '40%', max: 1000, min: 50 }, { size: '60%', max: 2000 }],
+        }).on('resize', () => {
+            $(this).find('#reultList').jqxListBox('render');
         });
 
         let source = [
@@ -119,7 +154,7 @@ class ResultTab extends HTMLElement {
                 console.log(index, label, value);
 
                 if (index >= 0) {
-                    let ri = new resultItems[value.type](value);
+                    let ri = new resultItems[value.type](value, $(this).find('#reultList').width());
                     return ri.outerHTML;
                 }
                 else return label

@@ -19,9 +19,21 @@
 
 <div id='jqxMenu'>
     <button id="deleteFavoriteButton">remove</button>
-    <!--<ul>-->
-        <!--<li><a href="#">delete</a></li>-->
-    <!--</ul>-->
+    <!--<button id="cancelDeleteFavoriteButton">cancel</button>-->
+</div>
+
+<div id='favoritesMenu'>
+    <div style="display:grid; grid-template-columns: auto auto">
+        <div>
+            <div style="padding: 5px; text-align: center;">Favorites</div>
+            <button id="addToFavoButton">add current</button>
+            <div id='favoritesList'></div></div>
+        <div>
+            <div style="padding: 5px; text-align: center">Recent</div>
+            <button id="clearRecentButton">clear</button>
+            <div id='recentList'></div>
+        </div>
+    </div>
 </div>
 
 <div id="mainPage" class="main-page">
@@ -42,7 +54,7 @@
                 </ul>
                 <div>
                     <!--<input id="mySearchInput" type="text" style="margin:3px" is="my-input">-->
-                    <input id="searchInput" type="text" style="margin:3px" is="my-input">
+                    <input id="searchInput" type="text" style="margin:3px" autocomplete="garbage" spellcheck="false" is="my-input">
                     <div id="searchToolbar" style="margin: 3px"></div>
                 </div>
                 <div id="btTab">
