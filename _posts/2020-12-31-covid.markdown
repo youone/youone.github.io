@@ -1,0 +1,61 @@
+---
+layout: post
+title: Sveriges Coronastrategi
+date: 2020-12-31 10:30:00 +0100
+description: Sveriges Coronastrategi 
+img: covid/swecovid.png
+fig-caption: Illustration of SARS-CoV-2 virions
+tags: []
+show: true
+---
+Virus kan spridas på två sätt. Via kontakt (mellan människor direkt eller via föremål), samt via den mellanliggande luften. Gemensamt för _båda_&nbsp; dessa spridningsvägar är att de begränsas framförallt genom att få människor att vidta social isolering och distans. Alltså att de först och främst låter bli att vistas på samma plats, och att de håller avstånd när de ändå måste göra det.
+
+Givet detta så kan vi först och främst klargöra en sak; Folkhälsomyndighetens ambition har _inte_&nbsp; varit att trycka ned smittspridningen så mycket som möjligt. 
+
+Hade man önskat maximal social isolering och distansering hade man förstås kunnat uppmana till det. Detta även om det inte funnits lagar på plats för att genomföra tvingande åtgärder och stängning av verksamheter. Man hade kunnat begränsa antalet personer i sammankomster till ett fåtal istället för de 50 som gällt hela tiden. Man hade kunnat uppmana människor att alltid stanna hemma på sin fritid oavsett om de känt sig sjuka eller inte. Man hade kunnat införa strikare begränsningar i kollektivtrafiken. Det finns inget kotrovesiellt i detta. Man har hela tiden påminnt om att det finns fler typer av åtgärder att sätta in om det skulle behövas, vilket alltså betyder att man inte har ansett att det beövts.
+
+Det är alltså uppenbart att man inte önskat att människor skulle bete sig som i en nedstängning av Europeiskt snitt, utan tvärt om har önskat att affärer, gym, köpcentrum, kollektivtrafik, ja hela sammhället, i stort sätt skulle fortsätta att rulla på som vanligt, om än i en makligare takt och på ett försiktigare vis. Detta säger man ju också så det är åter igen inget kontroversiellt med detta, men det förekommer ibland en missuppfattning att man egentligen hade velat göra mer, men att diverse lagar har satt käppar i hjulet för sådanan planer. 
+
+Så vad var målet med smittbekämpningen i Sverige då om det inte var att få ner spridningen till en minimal nivå? Det finns flera apekter av detta. _Vad_&nbsp; ville man göra, _varför_&nbsp; (vad ville man åstadkomma), och _hur_&nbsp; ville man göra det?
+
+### Vad? Varför? och Hur? ###
+
+Syftet med att hålla samhället så öppet som möjligt är att undvika hälsoproblem som uppstår av en nedstängning. Detta samtidigt som man såklart vill minimera hälsoproblem från smittan självt. Folkhälsomyndigheten (FoHM) skriver på sin hemsida att ambitionen är att tillgodose båda dessa mål&nbsp;[^fohmlink]. Det är såklart omöjligt, så man får tolka det som att man snarare menar att man siktar på att **minimera de totala negativa hälsorelaterade konsekvenserna, relaterade till både smittan och restriktionerna**. En typ av optimering. Mycket höga ambitioner i ett sådant akut läge som rådde i mitten på mars kan man tycka.
+
+En annan målsättning var **långsiktighet**. Man ansåg att en strategi inte bör innehålla flera faser, utan att en enhetlig och tidshomogen strategi bör implementeras från första början. Även detta en hög abition i ett så pass akut läge.
+
+#### Flattening the curve ####
+
+En del i den strategi man valde, var att tillämpa den nu berömda "[flattening the curve](https://en.wikipedia.org/wiki/Flattening_the_curve){:target="_blank"}"-principen. Den går ut på att minska spridningen så pass mycket att landets sjukvårdsresurser räcker till. Syftet med bromsandet av spridningen är inte främst att minska det totala antalet människor som smittas, utan att dra ut på det i tiden så att färre människor ska vara smittade samtidigt så att alla som behöver får vård. Faktum är att man tidigt menade att det var fördelaktigt att *inte* kväsa spridningen mer än nödvändigt. Mer om detta nedan. 
+
+En fördel med denna metod är att kuvan inte nödvändigtvis behöver tryckas ned mer än till en nivå där sjukvården med _maximal ansträngning_&nbsp; klarar av att hantera situationen. Givet att man ville undvika en lockdown passade såklart denna metod mycket bra.
+
+#### Skydd av utsatta grupper ####
+
+En annan del av strategin var att man skulle skydda speciellt utsatta grupper mot smitta. Detta var ett absolut nödvändigt komplement till kurvtillplattningen eftersom COVID-19 är en så pass allvarlig sjukdom att sjukvård varken garanterar överlevnad eller ett mycket smärtsamt och långdraget sjukdomsförlopp.
+
+#### Flockimmunitet ####
+
+Denna önskan att enbart behöva skydda den utsatta delen av befolkning speciellt, och samtidigt kunna hålla samhället så öppet som möjligt, gjorde att man .
+
+Eftersom man inte velat använda en strategi bestående av flera olika faser behövde man välja en som från första början tog i beaktande eventualiteten att det skulle ta flera år att utvekla ett vaccin. 
+text&nbsp;[^flock1]<sup>,</sup>&nbsp;[^flock2]
+
+De hypoteser man baserade detta strategival på var två till antalet:
+
+* att man kunde skydda specifika riskgrupper mot smitta.
+* att man genom att låta spridningen fortgå i den icke riskutsatta delen av befolkningen, skulle uppnå en nivå av immunitet som delvis skyddade mot vidare spridning, och i bästa fall uppnå en s.k. _flockimmunitet_&nbsp; då smittan börjar dö ut av sig själv.
+
+Eftersom detta bara var antaganden så var alltså strategivalet ett risktagande med avseende på smittspridningen. I synnerhet med tanke på den första hypotesen. Att välja lockdown som man gjort i övriga Europeiska länder hade å andra sidan medfört ett risktagande med avseende på de negativa hälsoeffekter som det får. Mer om detta senare.
+
+Notera även att en fullt godtagbar situation med denna strategi är ett _maximalt_&nbsp; utnyttjande av vårdresurser under en odefinierad period, till skillnad ifrån lockdodown-strategin där detta är något man uttryckligen vill undvika. 
+
+### Hur? ###
+### Skyddandet av Riskgrupper ###
+### Flockimmunitet ###
+### Riskavvägning ###
+### Orsak och Verkan ###
+
+[^fohmlink]: This is the first footnote.
+[^flock1]: This is the first footnote.
+[^flock2]: This is the first footnote.
