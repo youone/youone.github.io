@@ -13,9 +13,9 @@ show: false
 h4 {margin-bottom: 0px}
 .indentedParagraph {padding-left: 20px; border-left: 2px solid lightgrey !important;}
 .problemParagraph {
-	background-color: lightgrey;
+	background-color: #eaeaea;
 	padding: 5px;
-	border: 1px solid red;
+	border: 1px solid rgba(255,133,71,0.52);
 	border-radius: 5px;
 	font-size: 15px;
 	}
