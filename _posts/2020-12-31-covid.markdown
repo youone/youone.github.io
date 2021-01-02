@@ -8,43 +8,89 @@ fig-caption: Illustration of SARS-CoV-2 virions
 tags: []
 show: false
 ---
-Virus kan spridas på två sätt. Via kontakt (mellan människor direkt eller via föremål), samt via den mellanliggande luften. Gemensamt för _båda_&nbsp; dessa spridningsvägar är att de begränsas framförallt genom att få människor att vidta social isolering och distans. Alltså att de först och främst låter bli att vistas på samma plats, och att de håller avstånd när de ändå måste göra det.
+
+<style>
+h4 {margin-bottom: 0px}
+.indentedParagraph {padding-left: 20px; border-left: 2px solid lightgrey !important;}
+.problemParagraph {
+	background-color: lightgrey;
+	padding: 5px;
+	border: 1px solid red;
+	border-radius: 5px;
+	font-size: 15px;
+	}
+.problemParagraph > p {
+	margin: 0px;
+	margin-top: 5px;
+	}
+</style>
+
+Virus kan spridas mellan individer på två sätt. Via fysisk kontakt (mellan människor direkt eller via föremål), samt via den mellanliggande luften. Gemensamt för _båda_&nbsp; dessa spridningsvägar är att de begränsas framförallt genom att få människor att vidta social isolering och distans. Alltså att de först och främst låter bli att vistas på samma plats, och att de håller avstånd när de ändå måste göra det.
 
 Givet detta så står en sak ganska klar; Folkhälsomyndighetens ambition har _inte_&nbsp; varit att trycka ned den allmänna smittspridningen i samhället så mycket som möjligt. 
 
-Hade man önskat maximal social isolering och distansering hade man förstås kunnat uppmana till det. Detta även om det inte funnits lagar på plats för att genomföra tvingande åtgärder och stängning av verksamheter. Man hade kunnat begränsa antalet personer i sammankomster till ett fåtal istället för de 50 som gällt hela tiden. Man hade kunnat uppmana människor att inte över huvud taget träffa utomstående på sin fritid oavsett om de känt sig sjuka eller inte. Man hade kunnat införa strikare begränsningar i kollektivtrafiken etc. FoHM har hela tiden påmint om att det finns fler typer av åtgärder att sätta in om det skulle behövas, vilket alltså betyder att man inte har ansett att samhällsspridningen behövts minimeras.
+Hade man önskat maximal social isolering och distansering hade man förstås kunnat uppmana till det. Detta även om det inte funnits lagar på plats för att genomföra tvingande åtgärder och stängning av verksamheter. Man hade kunnat begränsa antalet personer i sammankomster till ett fåtal istället för de 50 som gällt hela tiden. Man hade kunnat uppmana människor att inte över huvud taget träffa utomstående på sin fritid oavsett om de känt sig sjuka eller inte. Man hade kunnat införa striktare begränsningar i kollektivtrafiken etc. FoHM har hela tiden påmint om att det finns fler typer av åtgärder att sätta in om det skulle behövas, vilket alltså betyder att man inte har ansett att samhällsspridningen bör minimeras.
 
-Det är alltså uppenbart att man inte önskat att människor skulle bete sig som i en nedstängning av Europeiskt snitt, utan tvärt om har önskat att affärer, gym, köpcentrum, kollektivtrafik, ja hela sammhället, i stort sätt skulle fortsätta att rulla på som vanligt, om än i en makligare takt och på ett försiktigare vis. Detta säger man ju också så det är inget kontroversiellt i detta, men det förekommer ibland en missuppfattning i debatten att man egentligen hade velat göra mer, men att diverse lagar har satt käppar i hjulet för sådanan planer. 
+Så det är uppenbart att man inte önskat att människor skulle bete sig som i en nedstängning (lockdown) av Europeiskt snitt, utan tvärtom har önskat att affärer, gym, köpcentrum, kollektivtrafik, ja hela samhället, i stort sätt skulle fortsätta att rulla på som vanligt, om än i en makligare takt och på ett försiktigare vis. Detta säger man ju också, så det är inget kontroversiellt i detta kunngörande, men det förekommer ibland en missuppfattning i debatten som gör gällande att man egentligen hade velat göra mer, men att diverse lagar har satt käppar i hjulet för sådana planer. Så är det inte!
 
-Så vad var då målet med smittbekämpningen i Sverige om det inte var att få ner samhällsspridningen till en minimal nivå? Det finns flera apekter av detta. _Vad_&nbsp; ville man göra, _varför_&nbsp; (vad ville man åstadkomma), och _hur_&nbsp; ville man göra det?
+Men vad var då målet med smittbekämpningen i Sverige om det inte var att få ner samhällsspridningen till en minimal nivå? Det finns flera aspekter av detta. _Vad_&nbsp; ville man göra, _varför_&nbsp; (vad ville man åstadkomma), och _hur_&nbsp; ville man göra det?
 
-### Vad? Varför? och Hur? ###
+### Strategin ###
 
-Syftet med att hålla samhället så öppet som möjligt är att undvika hälsoproblem som uppstår av en nedstängning. Detta samtidigt som man såklart vill minimera hälsoproblem från smittan självt. Folkhälsomyndigheten (FoHM) skriver på sin hemsida att ambitionen är att tillgodose båda dessa mål&nbsp;[^fohmlink]. Det är såklart omöjligt, så man får tolka det som att man snarare menar att man siktar på att **minimera de totala negativa hälsorelaterade konsekvenserna, relaterade till både smittan och restriktionerna**. En typ av optimering. Mycket höga ambitioner i ett sådant akut läge som rådde i mitten på mars kan man tycka.
+Syftet med att hålla samhället så öppet som möjligt är att undvika hälsoproblem som uppstår av en nedstängning. Detta samtidigt som man såklart vill minimera hälsoproblem från smittan självt&nbsp;[^andersson]. Folkhälsomyndigheten (FoHM) skriver på sin hemsida att ambitionen är att tillgodose båda dessa mål&nbsp;[^fohmlink]. Det är såklart omöjligt, så man får tolka det som att man snarare menar att man siktar på att **minimera de totala negativa hälsorelaterade konsekvenserna, relaterade till både smittan och restriktionerna**. En typ av optimering. 
 
-En annan målsättning var **långsiktighet**. Man ansåg att en strategi inte bör innehålla flera faser, utan att en enhetlig och tidshomogen strategi bör implementeras från första början. Även detta en hög abition i ett så pass akut läge.
+<div class="problemParagraph" markdown=1>
+**Anmärkning 1**:
 
-#### Flattening the curve ####
+Hur gör man en sådan optimering? Hur väger man direkta konkreta hälsoproblem orsakade av epidemin mot indirekta problem som måste härledas i ett andra led ur ekonomiska problem som orsakas av restriktioner. Men säg att man hade haft mycket precisa prediktionsverktyg för hälsoeffekterna av nedstängningar på olika nivåer i början av mars, och hade någon giltig måtstock för hur man jämför dem med smittorelaterade hälsoproblem. Då kvarstår problemt att man ändå inte känner till vilka problem smittan kommer att föra med sig. Det blir därmed omöjligt att "pricka rätt" och från första början lägga sig på en lagom nivå av restriktioner.
 
-En del i den strategi man valde, var att tillämpa den nu mer berömda "[flattening the curve](https://en.wikipedia.org/wiki/Flattening_the_curve){:target="_blank"}"-principen. Den går ut på att minska spridningen så pass mycket att landets sjukvårdsresurser räcker till. Syftet med bromsandet av spridningen är inte främst att minska det totala antalet människor som smittas, utan att dra ut på spridningsförloppet i tiden så att färre människor ska vara smittade samtidigt, vilket gör att alla som behöver får vård. 
+Nu var visserligen tanken att man skulle införa strängare åtgärder om det visade sig behövas. Svårigheten med det är att när man väl inser att det behövs så har smittan spridits exponentiellt till en ny, och p.g.a. inkubationstiden okänd, nivå. Det blir därför även då en chansning hur mycket man ska strama upp restriktionerna.
+</div>
 
-Att man inte nödvändigtvis behöver trycka ner kurvan mer än till en nivå där sjukvården med _maximal ansträngning_&nbsp; klarar av att hantera situationen passade såklart mycket bra eftersom man ville undvika att samhälleliga verksamheter drabbades av allt för strikta restriktioner och rekomendationer. En uppenbar effekt av detta är även såklart att ett land med mycket god och flexibel sjukvårdskapacitet kan "klara av" en situation med ett mycket stort antal sjuka. Ett sådant land behöver inte alls begränsa smittspridningen i samma utsträckning om målsättningen är att hålla samhället så pass öppet som möjligt.
+En annan målsättning var **långsiktighet**. Man ansåg att en strategi inte bör innehålla flera faser, utan att en enhetlig och tidshomogen handlingsplan bör implementeras från första början. Även detta en hög ambition i ett så pass akut läge.
 
-#### Skydd av utsatta grupper ####
+<div class="problemParagraph" markdown=1>
+**Anmärkning 2**:
+
+Varför behöver man implementera en långsiktig plan från allra första början. Vad är det för fel med en strategi som innehåller flera faser?
+</div>
+
+Den svenska strategin vilade på fyra ben:
+
+<div class="indentedParagraph" markdown=1>
+#### 1. Plana ut kurvan ####
+
+En del i den strategi man valde, var att tillämpa den nu mer berömda "[flattening the curve](https://en.wikipedia.org/wiki/Flattening_the_curve){:target="_blank"}"-principen (FTC fortsättningsvis). Den går ut på att minska spridningen så pass mycket att landets sjukvårdsresurser räcker till. Syftet med bromsandet av spridningen är inte främst att minska det totala antalet människor som smittas, utan att dra ut på spridningsförloppet i tiden så att färre människor ska vara smittade samtidigt, vilket gör att alla som behöver får vård.
+
+<div class="problemParagraph" markdown=1>
+**Anmärkning 3**:
+
+Att man inte nödvändigtvis behöver trycka ner kurvan mer än till en nivå där sjukvården med _maximal ansträngning_&nbsp; klarar av att hantera situationen passade såklart den svenska strategin mycket bra eftersom man ville undvika att samhälleliga verksamheter drabbades av allt för strikta restriktioner och rekommendationer. En uppenbar egenskap hos FTC är att ett land eller region med mycket god och skalbar sjukvårdskapacitet kan "klara av" en situation med ett mycket stort antal sjuka. Alla kommer visserligen få vård, men många kommer även att dö.
+</div>
+
+#### 2. Skydd av utsatta grupper ####
 
 En annan del av strategin var att man skulle skydda särskilt utsatta grupper mot smitta. Detta var ett absolut nödvändigt komplement eftersom COVID-19 är en så pass allvarlig sjukdom att även om man garanteras adekvat sjukvård genom kurvnedtryckningen, så garanterar detta varken överlevnad eller möjlighet att förhindra ett mycket smärtsamt och långdraget sjukdomsförlopp. Ju bättre man kan skydda utsatta, desto högre kan samhällsspridningen och mindre strikta kan restriktionerna vara.
 
-Ambitionen var såklart att detta skydd i det närmaste skulle vara 100%-igt. Eller? Man kan här skönja en möjlig svårighet. Hur bedömmer man om skyddet fungerar eller inte. Det kommer antagligen finnas en kontinuerlig skala på vilken man kan utvärdera detta. Har man dessutom en flexibel vårdapparat som kan skalas upp avsevärt vid behov så kommer villkoret för "flattening the curve"-nivån (att vården hinner med) vara uppfyllt inom ett ganska brett intervall av skyddseffektivitet.
+<div class="problemParagraph" markdown=1>
+**Anmärkning 4**:
+
+Ambitionen var såklart att detta skydd i det närmaste skulle vara 100%-igt. Eller? Man kan här skönja en möjlig svårighet. Hur bedömer man om skyddet fungerar eller inte. Det kommer antagligen finnas en kontinuerlig skala på vilken man kan utvärdera detta. Har man dessutom en flexibel vårdapparat som kan skalas upp avsevärt vid behov så kommer villkoret för att vården hinner med vara uppfyllt även då skyddet är ganska inffektivitet (se Anmärkning 3).
 
 Och här tillkommer dessutom ytterligare en svårighet. Vilken nivå på hälsoproblem från smittan är godtagbar då man väger den mot hälsoproblem som härstammar från restriktioner och uppmaningar?
+</div>
 
-#### Flockimmunitet ####
+#### 3. Flockimmunitet ####
 
 Faktum är att man tidigt menade att det var fördelaktigt att *inte* kväsa spridningen mer än nödvändigt. Mer om detta nedan. 
 Denna önskan att enbart behöva skydda den utsatta delen av befolkning speciellt, och samtidigt kunna hålla samhället så öppet som möjligt, gjorde att man .
 
 Eftersom man inte velat använda en strategi bestående av flera olika faser behövde man välja en som från första början tog i beaktande eventualiteten att det skulle ta flera år att utvekla ett vaccin. 
 text&nbsp;[^flock1]<sup>,</sup>&nbsp;[^flock2]
+
+#### 4. Frivillighet ####
+
+</div>
 
 De hypoteser man baserade detta strategival på var två till antalet:
 
@@ -64,6 +110,8 @@ Hur går det ens till?
 ### Flockimmunitet ###
 ### Riskavvägning ###
 ### Orsak och Verkan ###
+
+[^andersson]: Att det skulle handla om direkta ekonomiska motiv [förnekas](https://www.expressen.se/tv/nyheter/magdalena-andersson-s-aldrig-vagt-halsa-mot-ekonomi/){:target="_blank"} kategoriskt av finansmimistern.
 
 [^fohmlink]: This is the first footnote.
 [^flock1]: This is the first footnote.
