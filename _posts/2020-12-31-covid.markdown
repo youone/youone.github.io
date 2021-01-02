@@ -42,7 +42,7 @@ Syftet med att hålla samhället så öppet som möjligt är att undvika hälsop
 <div class="problemParagraph" markdown=1>
 **Anmärkning 1**:
 
-Hur gör man en sådan optimering? Hur väger man direkta konkreta hälsoproblem orsakade av epidemin mot indirekta problem som måste härledas i ett andra led ur ekonomiska problem som orsakas av restriktioner. Men säg att man hade haft mycket precisa prediktionsverktyg för hälsoeffekterna av nedstängningar på olika nivåer i början av mars, och hade någon giltig måtstock för hur man jämför dem med smittorelaterade hälsoproblem. Då kvarstår problemt att man ändå inte känner till vilka problem smittan kommer att föra med sig. Det blir därmed omöjligt att "pricka rätt" och från första början lägga sig på en lagom nivå av restriktioner.
+Hur gör man en sådan optimering? Hur väger man direkta konkreta hälsoproblem orsakade av epidemin mot indirekta problem som måste härledas i ett andra led ur ekonomiska problem som orsakas av restriktioner. Men säg att man hade haft precisa prediktionsverktyg för hälsoeffekterna av nedstängningar på olika nivåer i början av mars, och hade någon giltig måtstock för hur man jämför dem med smittorelaterade hälsoproblem. Då kvarstår problemt att man ändå inte känner till vilka problem smittan kommer att föra med sig. Det blir därmed omöjligt att "pricka rätt" och från första början lägga sig på en lagom nivå av restriktioner.
 
 Nu var visserligen tanken att man skulle införa strängare åtgärder om det visade sig behövas. Svårigheten med det är att när man väl inser att det behövs så har smittan spridits exponentiellt till en ny, och p.g.a. inkubationstiden okänd, nivå. Det blir därför även då en chansning hur mycket man ska strama upp restriktionerna.
 </div>
