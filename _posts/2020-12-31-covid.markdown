@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sveriges Coronastrategi
+title: Funderingar kring Sveriges Coronastrategi
 date: 2020-12-31 10:30:00 +0100
-description: Sveriges Coronastrategi 
-img: covid/swecovid.png
+description: Funderingar kring Sveriges Coronastrategi 
+img: covid/swecovid_narrow.png
 fig-caption: Illustration of SARS-CoV-2 virions
 tags: []
 show: false
@@ -21,19 +21,23 @@ h4 {margin-bottom: 0px}
 	}
 .problemParagraph > p {
 	margin: 0px;
-	margin-top: 5px;
+	margin-top: 7px;
 	}
 </style>
 
-Virus kan spridas mellan individer på två sätt. Via fysisk kontakt (mellan människor direkt eller via föremål), samt via den mellanliggande luften. Gemensamt för _båda_&nbsp; dessa spridningsvägar är att de begränsas framförallt genom att få människor att vidta social isolering och distans. Alltså att de först och främst låter bli att vistas på samma plats, och att de håller avstånd när de ändå måste göra det.
+Virus kan spridas mellan individer på två sätt. Via fysisk kontakt (mellan människor direkt eller via föremål), samt via den mellanliggande luften. Gemensamt för _båda_&nbsp; dessa spridningsvägar är att de begränsas framförallt genom att få människor att vidta social isolering och distans. Alltså att de först och främst låter bli att vistas på samma plats, och att de håller avstånd när de ändå måste göra det. Specifik dämpning av den luftburna delen erhålles framförallt via munskydd&nbsp;[^munskydd].
 
-Givet detta så står en sak ganska klar; **Folkhälsomyndighetens ambition har _inte_&nbsp; varit att trycka ned den allmänna smittspridningen i samhället så mycket som möjligt**. 
+Givet detta så står en sak ganska klar; **Folkhälsomyndighetens ambition har _inte_&nbsp; varit att trycka ned den allmänna smittspridningen i samhället så mycket som möjligt**.  
+
+<div class="problemParagraph" markdown=1>
+**Kommentar 1**:
+
+Men detta säger man ju också. Det är en del av strategin. På så sätt är detta kungörande inget kontroversiellt. Dock förekommer det ibland en missuppfattning i debatten som gör gällande att man egentligen hade velat göra mer, men att diverse lagar har satt käppar i hjulet för sådana planer. Så är det inte!
 
 Hade man önskat maximal social isolering och distansering hade man förstås kunnat uppmana till det. Detta även om det inte funnits lagar på plats för att genomföra tvingande åtgärder och stängning av verksamheter. Man hade kunnat begränsa antalet personer i sammankomster till ett fåtal istället för de 50 som gällt hela tiden. Man hade kunnat uppmana människor att inte över huvud taget träffa utomstående på sin fritid oavsett om de känt sig sjuka eller inte. Man hade kunnat införa striktare begränsningar i kollektivtrafiken etc. Folkhälsomyndigheten (FoHM) har hela tiden påmint om att det finns fler typer av åtgärder att sätta in om det skulle behövas, vilket alltså betyder att man inte har ansett att samhällsspridningen bör minimeras.
 
-Så det är uppenbart att man inte önskat att människor ens skulle _bete sig_ som i en nedstängning (lockdown) av Europeiskt snitt, utan man har tvärtom har önskat att affärer, gym, köpcentrum, kollektivtrafik, ja hela samhället, i stort sätt ska fortsätta att rulla på som vanligt, om än med försiktighet och i en makligare takt. 
-
-Men detta säger man ju också. Det är en del av strategin. På så sätt är det det fetstilade kungörandet ovan inget kontroversiellt. Dock förekommer det ibland en missuppfattning i debatten som gör gällande att man egentligen hade velat göra mer, men att diverse lagar har satt käppar i hjulet för sådana planer. Så är det inte! 
+Så det är uppenbart att man inte önskat att människor ens skulle _bete sig_&nbsp; som i en nedstängning (lockdown) av Europeiskt snitt, utan man har tvärtom har önskat att affärer, gym, köpcentrum, kollektivtrafik, ja hela samhället, i stort sätt ska fortsätta att rulla på som vanligt, om än med försiktighet och i en makligare takt. 
+</div>
 
 Man har angett två olika motiv till att man valt att undvika en lockdown. Det ena är att restriktioner i sin tur genererar hälsoproblem som kommer att överträffa de från smittan om de blir för omfattande&nbsp;[^carlsson1], och det andra att man har haft en ambition att uppnå s.k. "flockimmunitet" &nbsp;[^wallensten]&nbsp;[^tegnell_nature]. Mer om detta nedan.
 
@@ -43,33 +47,35 @@ Men vad var då målet med smittbekämpningen i Sverige om det inte var att få 
 
 ### Strategin ###
 
-Ett syfte med att hålla samhället så öppet som möjligt var alltså att undvika hälsoproblem som uppstår av en nedstängning&nbsp;[^fohmlink]&nbsp;[^andersson]. Detta samtidigt som man såklart ville minimera hälsoproblem från smittan självt. FoHM skriver på sin hemsida att ambitionen är att tillgodose båda dessa mål&nbsp;[^fohmlink]. Man ville med andra ord **minimera de totala negativa hälsorelaterade konsekvenserna från både smittan och restriktionerna**.
+En av anledningarna till att hålla samhället så öppet som möjligt var alltså att undvika hälsoproblem som uppstår av en nedstängning&nbsp;[^fohmlink]&nbsp;[^andersson]. Detta samtidigt som man såklart ville minimera hälsoproblem från smittan självt. FoHM skriver på sin hemsida att ambitionen är att tillgodose båda dessa mål&nbsp;[^fohmlink]. Man ville med andra ord **minimera de sammantagna negativa hälsorelaterade konsekvenserna från både smittan och restriktionerna**.
 
-Sättet man tänkte åstadkomma detta på var att identifiera enskilda delar av samhället som man specifikt skulle _skydda_ från smitta respektive _undanta_ från allmän social isolering. Det som skulle skyddas var känsliga riskgrupper som blev sjukare än andra, och det som skulle undantas från allmän isolering var grupper och miljöer där smitta inte ansågs spridas i någon större utsträckning och/eller som var speciellt känsliga för nedstängning ur ett hälsoperspektiv (med "undantas" menas här att det inte infördes förbud eller uppmaningar att helt undvika sådana miljöer, däremot uppmanades det såklart till försiktighet och att de skulle undvikas vid trängsel).
+Sättet man tänkte åstadkomma detta på var att identifiera enskilda delar av samhället som man specifikt skulle _skydda_ från smitta respektive _undanta_ från allmän social isolering. Det som skulle skyddas var känsliga riskgrupper som blev sjukare än andra (t.ex. äldre människor), och det som skulle undantas från allmän isolering var grupper och miljöer där smitta inte ansågs spridas i någon större utsträckning och/eller som var speciellt känsliga för nedstängning ur ett hälsoperspektiv (t.ex. grundskolor). Med "undantas från allmän social isolering" menas här att det inte infördes förbud eller uppmaningar att helt undvika sådana miljöer. Däremot uppmanades det såklart till försiktighet och att de skulle undvikas vid trängsel i vissa fall.
 
-Så minimeringen av de totala negativa hälsoeffekter var alltså till stor del en typ av reglerad optimering där tanken var att man skulle kunna kompensera för oväntade brister i smittskyddet, eller oväntat hög spridning i miljöer man absolut inte ville stänga ner, genom att införa ytterligare restriktioner efter behov där det inte ansågs skada så mycket.  
-
-<div class="problemParagraph" markdown=1>
-**Anmärkning 1**:
-
-Det som slår en direkt är den _höga ambitionsnivån_ man har lagt sig på med denna strategi, som ju behövde implementeras och fungera med mycket kort varsel. Hur gör man en sådan optimering? Hur väger man direkta konkreta hälsoproblem orsakade av epidemin mot indirekta problem som måste härledas i ett andra led ur t.ex. ekonomiska problem som orsakas av restriktioner. 
-
-Men säg att man hade haft precisa prediktionsverktyg för hälsoeffekterna av nedstängningar på olika nivåer i början av mars, och dessutom hade någon giltig måttstock för hur man bör väga dem mot smitt-relaterade hälsoproblem. Då kvarstår det faktum att man ändå inte känner till vilka problem smittan kommer att föra med sig. Det blir därmed omöjligt att "pricka rätt" och från första början lägga sig på en lagom nivå av restriktioner.
-
-De oskyddade delarna av samhället som undantogs från allmän social isolering var många. Faktum är att hela samhället initialt undantogs förutom gymnasieskolor och folksamlingar med fler än 50 personer. Här räknades t.ex. nöjesfält in men _inte_ inomhusmiljöer som affärer, köpcentrum och kollektivtrafik. Grundskolan undantogs dock fullt ut (skolplikten gällde), då man ansåg att barn i den åldern inte bidrar till smittspridningen.
-
-Nu var visserligen tanken att man skulle införa strängare åtgärder om det visade sig behövas. Svårigheten med det är att när man väl inser att det behövs så har smittan spridits exponentiellt till en ny, och p.g.a. inkubationstiden okänd, nivå. Det blir därför även då en chansning hur mycket man ska strama upp restriktionerna.
-</div>
-
-En annan målsättning var **långsiktighet**&nbsp;[^carlsson2]. Man ansåg att en strategi inte bör innehålla flera faser, utan att en enhetlig och tidshomogen handlingsplan bör implementeras från första början. Även detta en hög ambition i ett så pass akut läge.
+Så minimeringen av de totala negativa hälsoeffekter var alltså till stor del en typ av reglerad optimering där tanken var att man skulle kunna kompensera för oväntade brister i smittskyddet, eller oväntat hög spridning i miljöer man helst inte ville stänga ner, genom att införa ytterligare restriktioner och rekommendationer efter behov där det inte ansågs skada så mycket.  
 
 <div class="problemParagraph" markdown=1>
-**Anmärkning 2**:
+**Kommentar 2**:
 
-Varför behöver man implementera en långsiktig plan från allra första början. Vad är det för fel med en strategi som innehåller flera faser?
+Något som slår en direkt är den höga ambitionsnivån man har lagt sig på med denna relativt komplicerade och lägeskunskapskrävande strategi (som i grunden är en balansakt för att ligga på en "lagom" nivå av samhällsspridning). Hur gör man en sådan optimering? Hur väger man direkta konkreta omedelbara hälsoproblem orsakade av epidemin mot indirekta, och i många fall långsiktiga, problem som måste härledas i ett andra led ur t.ex. ekonomiska svårigheter som orsakas av restriktioner. 
+
+Men anta för diskussionens skull att man hade haft precisa prediktionsverktyg för hälsoeffekterna av restriktioner på olika nivåer i början av mars, och att man dessutom hade någon giltig måttstock för hur man bör väga dem mot hälsoproblem orsakade av epidemin. Då kvarstår ändå det faktum att man inte känner till vilka okända problem smittan kommer att föra med sig. Det blir därmed svårt att "pricka rätt" och lägga sig på en lagom nivå av restriktioner.
+
+De oskyddade delarna av samhället som undantogs från allmän social isolering var många. Faktum är att hela samhället initialt undantogs förutom gymnasieskolor och folksamlingar med fler än 50 personer. Här räknades t.ex. nöjesfält in men _inte_&nbsp; inomhusmiljöer som affärer, köpcentrum och kollektivtrafik. Grundskolor undantogs dock fullt ut (skolplikten gällde), då man ansåg att barn i den åldern inte bidrar till smittspridningen.
+
+Så man prioriterade alltså initialt undvikandet av negativa effekter från restriktioner och lade sig medvetet högt i samhällsspridning. Tanken var sedan att man skulle införa strängare åtgärder vartefter om det visade sig behövas. Svårigheten med det är att när man väl inser att det behövs så har smittan spridits _exponentiellt_&nbsp; till en ny, och p.g.a. inkubationstiden, okänd nivå. Det blir därför även då en chansning hur mycket man ska strama upp restriktionerna.
+
+Med en lockdown gör man tvärt om. Man prioriterar initialt att bekämpa smittan och släpper successivt på restriktionerna i den mån det visar sig vara möjligt. En fördel med detta är att hälsoproblem från restriktioner inte utvecklas exponentiellt.
 </div>
 
-Den svenska strategin vilade på fyra ben:
+En annan målsättning var **långsiktighet**&nbsp;[^carlsson2]. Man ansåg att en strategi inte bör innehålla flera faser, utan att en enhetlig och tidshomogen handlingsplan bör implementeras från första början.
+
+<div class="problemParagraph" markdown=1>
+**Kommentar 3**:
+
+Även detta är en mycket hög ambition i ett så pass akut läge. Men varför behöver man implementera en långsiktig plan från allra första början. Vad är det för fel med en strategi som innehåller flera faser?
+</div>
+
+Denna strateg innehöll att antal delar som man kan säga att den vilade på. Dessa var:
 
 <div class="indentedParagraph" markdown=1>
 #### 1. Plana ut kurvan ####
@@ -77,19 +83,19 @@ Den svenska strategin vilade på fyra ben:
 En del i den strategi man valde, var att tillämpa den nu mer berömda "[flattening the curve](https://en.wikipedia.org/wiki/Flattening_the_curve){:target="_blank"}"-principen (FTC fortsättningsvis). Den går ut på att minska spridningen så pass mycket att landets sjukvårdsresurser räcker till. Syftet med bromsandet av spridningen är inte främst att minska det totala antalet människor som smittas, utan att dra ut på spridningsförloppet i tiden så att färre människor ska vara smittade samtidigt, vilket gör att alla som behöver får vård.
 
 <div class="problemParagraph" markdown=1>
-**Anmärkning 3**:
+**Kommentar 4**:
 
 Att man inte nödvändigtvis behöver trycka ner kurvan mer än till en nivå där sjukvården med _maximal ansträngning_&nbsp; klarar av att hantera situationen passade såklart den svenska strategin mycket bra eftersom man ville undvika att samhälleliga verksamheter drabbades av allt för strikta restriktioner och rekommendationer. En uppenbar egenskap hos FTC är att ett land eller region med mycket god och skalbar sjukvårdskapacitet kan "klara av" en situation med ett mycket stort antal sjuka. Alla kommer visserligen få vård, men många kommer även att dö.
 </div>
 
 #### 2. Skydd av utsatta grupper ####
 
-En annan del av strategin var att man skulle skydda särskilt utsatta grupper mot smitta. Detta var ett absolut nödvändigt komplement eftersom COVID-19 är en så pass allvarlig sjukdom att även om man garanteras adekvat sjukvård genom kurvnedtryckningen, så garanterar detta varken överlevnad eller möjlighet att förhindra ett mycket smärtsamt och långdraget sjukdomsförlopp. Ju bättre man kan skydda utsatta, desto högre kan samhällsspridningen och mindre strikta kan restriktionerna vara.
+Som nämnts var en annan fundamental del av strategin att man skulle skydda särskilt utsatta grupper mot smitta. Detta var ett absolut nödvändigt komplement eftersom COVID-19 är en så pass allvarlig sjukdom att även om man garanteras adekvat sjukvård genom FTC, så garanterar detta varken överlevnad eller möjlighet att förhindra ett mycket smärtsamt och långdraget sjukdomsförlopp. Tanken var att ju bättre man kan skydda utsatta, desto högre kan samhällsspridningen och mindre strikta kan restriktionerna vara.
 
 <div class="problemParagraph" markdown=1>
-**Anmärkning 4**:
+**Kommentar 5**:
 
-Ambitionen var såklart att detta skydd i det närmaste skulle vara 100%-igt. Eller? Man kan här skönja en möjlig svårighet. Hur bedömer man om skyddet fungerar eller inte. Det kommer antagligen finnas en kontinuerlig skala på vilken man kan utvärdera detta. Har man dessutom en flexibel vårdapparat som kan skalas upp avsevärt vid behov så kommer villkoret för att vården hinner med vara uppfyllt även då skyddet är ganska inffektivitet (se Anmärkning 3).
+Ambitionen var såklart att detta skydd i det närmaste skulle vara 100%-igt. Eller? Man kan här skönja en möjlig svårighet. Hur bedömer man om skyddet fungerar eller inte. Var drar man gränsen? Det kommer antagligen finnas en kontinuerlig skala på vilken man kan utvärdera detta. Har man dessutom en flexibel vårdapparat som kan skalas upp avsevärt vid behov så kommer villkoret för att vården hinner med vara uppfyllt även då skyddet är ganska inffektivitet (se Kommentar 4).
 
 Och här tillkommer dessutom ytterligare en svårighet. Vilken nivå på hälsoproblem från smittan är godtagbar då man väger den mot hälsoproblem som härstammar från restriktioner och uppmaningar?
 </div>
@@ -125,11 +131,13 @@ Hur går det ens till?
 ### Riskavvägning ###
 ### Orsak och Verkan ###
 
-[^wallensten]: Anders Wallensten [förklarar](https://youtu.be/Ql36S61C3io?t=2253){:target="_blank"} på pressträffen 24 april att en viss nivå av samhällsspridning är bra. _"Nackdelen med en lockdown helt är att det inte blir så mycket smittspridning, och då har man ju problemet kvar s.a.s. när man lättar på den. "_. 
+[^munskydd]: [Masks and Face Coverings for the Lay Public, A Narrative Update](https://www.acpjournals.org/doi/10.7326/M20-6625?fbclid=IwAR1A1IQ8y5HOFYlDqgX3KfcdDfZknjcAizVkfQmOLpu7mMOFJpwWkSjU4nc){:target="_blank"}
 
-[^tegnell_nature]: Anders Tegnell [förklarar](https://www.nature.com/articles/d41586-020-01098-x){:target="_blank"} för Nature Magazine att alla länder måste uppnå flockimmunitet. _"Each country has to reach ‘herd immunity’ [when a high proportion of the population is immune to an infection, largely limiting spread people who are not immune] in one way or another, and we are going to reach it in a different way."_
+[^wallensten]: Anders Wallensten [förklarar](https://youtu.be/Ql36S61C3io?t=2253){:target="_blank"} på pressträffen 24 april 2020 att en viss nivå av samhällsspridning är bra: _"Nackdelen med en lockdown helt är att det inte blir så mycket smittspridning, och då har man ju problemet kvar s.a.s. när man lättar på den."_ 
 
-[^carlsson1]: Johan Carlson [förklarar](https://youtu.be/svlHD2mpk9k?t=282){:target="_blank"} att man vill undvika hot mot folkhälsan genom att inte införa för mycket restriktioner för att få ned samhällsspridningen. _"We also like to mitigate other health threats, caused by the respose per se. That is, we would like to avoid over responding."_
+[^tegnell_nature]: Anders Tegnell [förklarar](https://www.nature.com/articles/d41586-020-01098-x){:target="_blank"} för Nature Magazine att alla länder måste uppnå flockimmunitet: _"Each country has to reach ‘herd immunity’ [when a high proportion of the population is immune to an infection, largely limiting spread people who are not immune] in one way or another, and we are going to reach it in a different way."_
+
+[^carlsson1]: Johan Carlson [förklarar](https://youtu.be/svlHD2mpk9k?t=282){:target="_blank"} att man vill undvika hot mot folkhälsan genom att inte införa för mycket restriktioner för att få ned samhällsspridningen: _"We also like to mitigate other health threats, caused by the respose per se. That is, we would like to avoid over responding."_
 
 [^carlsson2]: Johan Carlson [förklarar](https://youtu.be/svlHD2mpk9k?t=299){:target="_blank"} att man vill ha en långsiktig strategi.
 
