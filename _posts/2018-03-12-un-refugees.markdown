@@ -6,7 +6,7 @@ description: How I think the United Nations should deal with refugee crises
 img: un_refugees/capture.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [UN, Refugees, Syria, War]
-show: true
+show: false
 ---
 There is a disturbing lack of discussion about what the role of the United Nations should be in global refugee situations. It is absolutely outrageous that people today, despite the existence of modern transportation, have to flee by their own means via life threatening journeys to a single country or a region that might or might not grant them asylum. The very idea that refugees even should have to choose one specific country somewhere in the world where to seek asylum, be forced to travel there or even visit embassies belonging to these countries seems to me like an outdated and inefficient procedure.
 

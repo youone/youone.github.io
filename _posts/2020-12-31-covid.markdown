@@ -3,7 +3,7 @@ layout: post
 title: Funderingar kring Sveriges Coronastrategi
 date: 2020-12-31 10:30:00 +0100
 description: Funderingar kring Sveriges Coronastrategi 
-img: covid/swecovid_narrow.png
+img: covid/swecovid.png
 fig-caption: Illustration of SARS-CoV-2 virions
 tags: []
 show: false
