@@ -6,7 +6,7 @@ description:  Me having a go at art criticism
 img: oppenheim/cup.jpg
 fig-caption: Breakfast in Fur (Le Déjeuner en fourrure), Méret Oppenheim
 tags: [Art, Méret Oppenheim, Heinrich Wölfflin]
-show: false
+show: true
 ---
 Vacation starts to kick in and my mind is wandering.
 
