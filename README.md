@@ -1,5 +1,12 @@
 # Flexible-Jekyll is a simple and clean theme for Jekyll
 
+## Developing in jekyll container in vscode
+```
+sudo bundle install
+sudo bundle exec jekyll serve -w --livereload --force_polling
+```
+
+
 ![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
 ## Demo
