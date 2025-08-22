@@ -5,15 +5,15 @@
 
 $('document').ready(function(){
 
-    let m1642Source = new ol.source.XYZ({
+    let m1848Source = new ol.source.XYZ({
             url: 'https://mapwarper.net/maps/tile/75863/{z}/{x}/{y}.png'
         });
-    let m1733Source= new ol.source.XYZ({
-            url: 'https://mapwarper.net/maps/tile/75863/{z}/{x}/{y}.png'
+    let m1870Source= new ol.source.XYZ({
+            url: 'https://mapwarper.net/maps/tile/95903/{z}/{x}/{y}.png'
         });
 
     let overlayLayer = new ol.layer.Tile({
-        source: m1733Source,
+        source: m1848Source,
         opacity: 0.5
     });
     overlayLayer.set("id", "overlay");
@@ -88,25 +88,23 @@ $('document').ready(function(){
     });
 
     $("#select-custom-6").on("change", function(event) {
-        console.log(event, $(this).find(":selected").text());
+        console.log($(this).find(":selected"), $(this).find(":selected").val());
 
-
-        if($(this).find(":selected").text() === "1642") {
+        if ($(this).find(":selected").val() === "1848") {
             console.log(map.getLayers().forEach(layer => {
                 console.log(layer.get("id"));
-                if(layer.get("id") === "overlay") layer.setSource(m1642Source);
+                if(layer.get("id") === "overlay") layer.setSource(m1848Source);
             }));
         }
-        if($(this).find(":selected").text() === "1733") {
+        if ($(this).find(":selected").val() === "1870") {
             console.log(map.getLayers().forEach(layer => {
                 console.log(layer.get("id"));
-                if(layer.get("id") === "overlay") layer.setSource(m1733Source);
+                if(layer.get("id") === "overlay") layer.setSource(m1870Source);
             }));
         }
 
         console.log('closing panel');
         $("#mypanel").panel("close");
-
 
     })
 
